@@ -1,9 +1,9 @@
 {
     "name":"RightSearch",
     "version":"0.0.1",
-    "description":"Search within site by default searchEngine.",
+    "description":"Search selected within the site by google ssl search.",
     "permissions":[
-        "contextMenus","tabs","content_scripts"
+        "contextMenus","tabs"
     ],
     "background_page":"background.html",
     "content_security_policy":"default-src 'self'"
