@@ -1,0 +1,10 @@
+{
+    "name":"RightSearch",
+    "version":"0.0.1",
+    "description":"Search within site by default searchEngine.",
+    "permissions":[
+        "contextMenus","tabs","content_scripts"
+    ],
+    "background_page":"background.html",
+    "content_security_policy":"default-src 'self'"
+}
