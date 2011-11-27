@@ -23,7 +23,7 @@ function searchByDefaultEngine() {
 }
 
 chrome.contextMenus.create({
-                               "title":"Search selected within this site",
+                               "title":"Search \"%s\" within this site",
                                "type":"normal",
                                "contexts":["selection"],
                                "onclick":searchByDefaultEngine()
